@@ -1,0 +1,127 @@
+================================================================================
+                    NEURVANCE - QUICK START GUIDE
+================================================================================
+
+FASTEST WAY TO GET STARTED (3 STEPS)
+===================================
+
+Step 1: RUN SETUP
+   Double-click: SETUP.bat
+   ✓ This installs all required Python libraries
+   ✓ First time only (takes 5-15 minutes)
+
+Step 2: WAIT FOR INSTALLATION
+   ✓ Don't close the window until it says "SETUP COMPLETE!"
+   ✓ Download size: ~2-4 GB
+
+Step 3: RUN THE APP
+   Double-click: AIGaming.bat
+   ✓ That's it! The application will launch
+
+================================================================================
+
+WHAT IF SETUP.BAT FAILS?
+========================
+
+If SETUP.bat doesn't work:
+
+1. Make sure Python 3.10+ is installed
+   - Download from: https://www.python.org/
+   - During installation, CHECK "Add Python to PATH"
+   - Restart computer after installing Python
+
+2. Open Command Prompt (cmd.exe) in this folder
+
+3. Run these commands manually:
+
+   python -m pip install --upgrade pip
+   python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+   python -m pip install transformers
+   python -m pip install psutil
+
+4. Then double-click AIGaming.bat
+
+================================================================================
+
+FOLDER LAYOUT (KEEP TOGETHER)
+=============================
+
+Neurvance_Release/
+├── AIGaming.bat          ← RUN THIS (launcher)
+├── AIGaming.exe          ← The application
+├── Neurvance.ico         ← Application icon
+├── SETUP.bat             ← Run this first (setup)
+├── README.md             ← Full documentation
+├── QUICKSTART.txt        ← This file
+└── requirements.txt      ← Library list (for manual install)
+
+⚠️ Keep all files in the SAME FOLDER - don't separate them!
+
+================================================================================
+
+MINIMUM REQUIREMENTS
+====================
+
+✓ Windows 10 or newer
+✓ 4 GB RAM (8+ GB recommended)
+✓ 2-4 GB free disk space (for Python libraries)
+✓ Python 3.10 or newer
+✓ Internet connection (for initial setup only)
+
+================================================================================
+
+AFTER INSTALLATION
+===================
+
+To run the app anytime in the future:
+
+   Simply double-click: AIGaming.bat
+
+You DON'T need to run SETUP.bat again.
+
+================================================================================
+
+TROUBLESHOOTING
+===============
+
+Problem: "Python is not installed"
+Solution: Install Python from https://www.python.org/
+         Make sure to check "Add Python to PATH"
+
+Problem: Setup takes too long
+Solution: PyTorch is large (~2 GB). Check your internet speed.
+         Keep the window open - don't close it!
+
+Problem: "AIGaming.exe not found" error
+Solution: Make sure AIGaming.bat and AIGaming.exe are in the same folder
+
+Problem: Application crashes
+Solution: Check the README.md file for detailed troubleshooting
+
+================================================================================
+
+FEATURES
+========
+
+✓ Gaming Optimizer    - Monitor and optimize game performance
+✓ Virus Scanner       - AI-powered system threat detection
+✓ System Pulse        - Real-time performance monitoring
+
+All features work offline after initial setup!
+
+================================================================================
+
+SUPPORT
+=======
+
+For more detailed help, see: README.md
+
+For legal information, see: README.md (Legal Disclaimer & Liability section)
+
+================================================================================
+
+You're ready to go! 🚀
+
+Double-click SETUP.bat to begin.
+
+================================================================================

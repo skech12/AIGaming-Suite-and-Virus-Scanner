@@ -1,0 +1,13 @@
+# Neurvance - AIGaming Suite Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core system monitoring
+psutil>=5.9
+
+# AI & machine learning
+torch>=2.0
+transformers>=4.30
+
+# Optional: GPU support (uncomment if you have NVIDIA GPU)
+# torch-cuda  # For NVIDIA GPU acceleration
+# pynvml      # For NVIDIA GPU monitoring
